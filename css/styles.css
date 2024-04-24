@@ -1,6 +1,34 @@
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    font-weight: 400;
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+  }
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 .header {
+    width: 320px;
+    display: flex;
+    justify-content: space-between;
 }
 .container {
+    width: 320px;
+    padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .header-nav {
 }
@@ -27,48 +55,154 @@
 .button-order {
 }
 .advantages-section {
+    padding: 98px 0;
 }
 .visually-hidden {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .advantages-box {
+    display: flex;
+    flex-direction: column;
 }
 .advantages-punkts {
+    margin-bottom: 72px;
+}
+.advantages-punkts:last-child{
+    margin-bottom: 0;
 }
 .icon-box {
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px;
+  display: none;
 }
 .adv-icon {
 }
 .advantages-list {
+    font-family: "Roboto", sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.12;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
 }
 .paragraph {
+    font-family: "Roboto", sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
 }
 .team-section {
+    background-color: #f4f4fd;
+}
+.team-section > .container{
+    padding-left: 28px;
+    padding-right: 28px;
 }
 .team {
+    text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  padding-top: 96px;
+  margin-bottom: 72px;
 }
 .team-names-list {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  gap: 72px;
+  padding-bottom: 96px;
 }
 .team-section-list {
+    border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .member-foto {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-member {
+    padding: 32px 0;
 }
 .team-name {
+    font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
+  margin-bottom: 8px;
 }
 .team-paragraph {
+    color: #434455;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .soc-list-icons {
+    display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 8px;
 }
 .soc-list-item {
 }
 .soc-link {
+    width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-icon {
+    width: 40px;
+  height: 40px;
+  fill: #f4f4fd;
+}
+.soc-link:hover,
+.soc-link:focus,
+.soc-link:active {
+  background-color: #404bbf;
+  border-radius: 50%;
 }
 .portfolio {
+    padding-top: 96px;
+  padding-bottom: 72px;
 }
 .portfolio-title {
+    text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  margin-bottom: 72px;
 }
 .portfolio-list {
 }
